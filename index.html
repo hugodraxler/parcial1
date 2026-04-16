@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Formularios de Sistema</title>
+    <link rel="stylesheet" type="text/stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <center>
+
+        <div class="menu-navegacion">
+            <a href="#instalacion">Ir a Instalación Entidad (7)</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+            <a href="#seguridad">Ir a Seguridad (8)</a>
+        </div>
+
+        <div id="instalacion" class="ventana-sistema">
+            <div class="barra-titulo"><b>Entidades</b></div>
+            <div class="barra-azul"><b>INSTALACION ENTIDAD</b></div>
+            
+            <div class="cuerpo-ventana">
+                <div class="recuadro-blanco">
+                    
+                    <table border="0" cellpadding="5">
+                        <tr>
+                            <td width="100"><b class="texto-etiqueta">Entidad:</b></td>
+                            <td>
+                                <select style="width: 300px; background-color: #5896d4; color: white;">
+                                    <option>0006 Vicepresidencia del Estado Plurinacional</option>
+                                    <option>0010 Ministerio de Relaciones Exteriores</option>
+                                    <option>0015 Ministerio de Gobierno</option>
+                                    <option>0016 Ministerio de Educación</option>
+                                    <option>0020 Ministerio de Defensa</option>
+                                    <option>0025 Ministerio de la Presidencia</option>
+                                    <option>0030 Ministerio de Justicia</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b class="texto-etiqueta">Sigla:</b></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><b class="texto-etiqueta">Institución:</b></td>
+                            <td></td>
+                        </tr>
+                    </table>
+
+                </div>
+
+                <br>
+                <center>
+                    <button class="boton-azul"><b>OK</b></button>
+                    &nbsp;&nbsp;
+                    <button class="boton-azul"><b>Salir</b></button>
+                </center>
+            </div>
+        </div>
+
+        <div id="seguridad" class="ventana-sistema">
+            <div class="barra-titulo"><b>SEGURIDAD</b></div>
+            <div class="barra-azul"><b>SEGURIDAD</b></div>
+            
+            <div class="cuerpo-ventana">
+                <div class="recuadro-blanco">
+                    
+                    <div style="background-color: #e5edf5; border: 1px solid #8e9db0; padding: 5px; margin-bottom: 10px;">
+                        <table border="0" cellpadding="3">
+                            <tr>
+                                <td><b class="texto-etiqueta">USUARIO:</b></td>
+                                <td><input type="text" value="admin" style="width: 100px;"></td>
+                                <td width="30"></td>
+                                <td><b class="texto-etiqueta">CONTRASEÑA ASIGNADA:</b></td>
+                                <td><input type="password" value="*****" style="width: 100px;"></td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <table border="0" cellpadding="5" width="100%">
+                        <tr>
+                            <td width="130"><b class="texto-etiqueta">NOMBRE COMPLETO:</b></td>
+                            <td><input type="text" value="administrador" class="input-bloqueado" style="width: 100%;" readonly></td>
+                        </tr>
+                        <tr>
+                            <td><b class="texto-etiqueta">DESCRIPCION:</b></td>
+                            <td><input type="text" class="input-bloqueado" style="width: 100%; height: 35px;" readonly></td>
+                        </tr>
+                        <tr>
+                            <td valign="top"><br><b class="texto-etiqueta">TIPO DE<br>USUARIO:</b></td>
+                            <td>
+                                <input type="radio" name="tipo" disabled> <span style="font-size: 11px; color: #666;">Operador</span><br>
+                                <input type="radio" name="tipo" checked disabled> <span style="font-size: 11px; color: #666;">Administrador</span>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+
+                <br>
+                <table border="0" width="100%" cellpadding="0">
+                    <tr>
+                        <td><button class="boton-pequeno">Primero</button></td>
+                        <td><button class="boton-pequeno">Anterior</button></td>
+                        <td><button class="boton-pequeno">Siguiente</button></td>
+                        <td><button class="boton-pequeno">Ultimo</button></td>
+                        <td><button class="boton-pequeno">Nuevo</button></td>
+                        <td><button class="boton-pequeno boton-pequeno-activo"><u>E</u>ditar</button></td>
+                        <td><button class="boton-pequeno boton-deshabilitado" disabled>Guardar</button></td>
+                        <td><button class="boton-pequeno boton-deshabilitado" disabled>Deshacer</button></td>
+                        <td align="right"><button class="boton-azul" style="padding: 3px 15px;"><b>Salir</b></button></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+
+    </center>
+
+</body>
+</html>

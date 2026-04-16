@@ -1,0 +1,97 @@
+body {
+    background-color: #8fa7be;
+    font-family: Tahoma, Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.menu-navegacion {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.menu-navegacion a {
+    color: #1b4d82;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ventana-sistema {
+    width: 580px;
+    background-color: #e5edf5;
+    border: 2px solid #333;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.barra-titulo {
+    background-color: #000;
+    color: #fff;
+    font-size: 11px;
+    padding: 3px 8px;
+}
+
+.barra-azul {
+    background: linear-gradient(to bottom, #3971a2 0%, #5691c8 40%, #2f699e 50%, #255a8e 100%);
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+    border-bottom: 1px solid #1a3f63;
+}
+
+.cuerpo-ventana {
+    padding: 15px;
+}
+
+.recuadro-blanco {
+    background-color: #f4f8fc;
+    border: 1px solid #8e9db0;
+    padding: 15px;
+}
+
+.texto-etiqueta {
+    color: #123e6d;
+    font-size: 11px;
+}
+
+input, select {
+    border: 1px solid #7f9db9;
+    padding: 3px;
+    font-size: 11px;
+}
+
+.boton-azul {
+    background: linear-gradient(to bottom, #538bba 0%, #2c6596 45%, #154877 50%, #1e5585 100%);
+    color: white;
+    border: 1px solid #0b2238;
+    border-top-color: #8ab6d6;
+    border-left-color: #8ab6d6;
+    padding: 4px 20px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.boton-pequeno {
+    background: linear-gradient(to bottom, #e4f0f9 0%, #c1d7ec 45%, #a8c6e2 50%, #b8d0e7 100%);
+    border: 1px solid #8ba3ba;
+    color: #123e6d;
+    font-size: 10px;
+    padding: 4px 6px;
+}
+
+.boton-pequeno-activo {
+    border: 2px solid #4a6c8c;
+    padding: 3px 5px;
+}
+
+.boton-deshabilitado {
+    color: #999;
+}
+
+.input-bloqueado {
+    background-color: #e5edf5;
+}
